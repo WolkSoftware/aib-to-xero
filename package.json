@@ -1,13 +1,9 @@
 {
   "name": "aib-to-xero",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Transforms Allied Irish Banks (AIB) a bank statement (.csv) into a Xero bank feed (.csv)",
-  "main": "src/index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "bin": {
-    "aib-to-xero": "dist/index.js"
+    "aib-to-xero": "./index.js"
   },
   "repository": {
     "type": "git",
