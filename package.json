@@ -1,6 +1,6 @@
 {
   "name": "aib-to-xero",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Transforms Allied Irish Banks (AIB) a bank statement (.csv) into a Xero bank feed (.csv)",
   "bin": {
     "aib-to-xero": "./index.js"
@@ -11,12 +11,17 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/WolkSoftware/aib-to-xero/issues"
   },
   "homepage": "https://github.com/WolkSoftware/aib-to-xero#readme",
   "dependencies": {
-    "csv-parser": "^2.3.1"
+    "arg": "4.1.1",
+    "csv-parser": "2.3.1",
+    "moment": "2.24.0"
+  },
+  "devDependencies": {
+    "@types/node": "12.7.11"
   }
 }
